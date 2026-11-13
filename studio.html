@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Styling Studio | FashionForward</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500;700&family=Caveat:wght@600&display=swap">
+<link rel="stylesheet" href="style.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<header class="nav"><a class="logo" href="index.html">FashionForward</a>
+<nav aria-label="Main"><a href="index.html">Cover</a><a href="studio.html" aria-current="page">Studio</a><a href="lookbook.html">Lookbook</a></nav>
+<a class="btn" href="studio.html">Start styling</a></header>
+<main class="window">
+<div class="titlebar">Untitled &ndash; Styling Studio</div>
+<div class="body">
+<div class="tools">
+<div class="toolgrid" id="tools" role="group" aria-label="Clothing category">
+<button data-cat="top">Tops</button><button data-cat="bottom">Bottoms</button><button data-cat="shoes">Shoes</button>
+<button data-cat="bag">Bags</button><button data-cat="eyewear">Eyewear</button><button data-cat="jewelry">Jewelry</button>
+</div>
+<div class="info" id="info" aria-live="polite"></div>
+</div>
+<div class="canvas"><div id="avatar"></div><div class="tiles" id="tiles"></div></div>
+</div>
+<div class="bar">
+<div role="group" aria-label="Skin tone"><span class="lbl">Skin</span>
+<button class="sw" data-skin="#C98F6B" style="background:#C98F6B" aria-label="Skin tone 1"></button>
+<button class="sw" data-skin="#F1C9A5" style="background:#F1C9A5" aria-label="Skin tone 2"></button>
+<button class="sw" data-skin="#8A5A3C" style="background:#8A5A3C" aria-label="Skin tone 3"></button>
+<button class="sw" data-skin="#E3B08A" style="background:#E3B08A" aria-label="Skin tone 4"></button></div>
+<div><label class="lbl" for="lookName">Look name</label> <input id="lookName" maxlength="30" placeholder="Untitled look"></div>
+<div class="save"><div><span class="lbl">Outfit total</span><div class="total" id="total" aria-live="polite">$0.00</div></div>
+<button class="btn red" id="saveBtn">Save look</button></div>
+</div>
+<p id="msg" role="status" class="msg"></p>
+</main>
+</body>
+</html>

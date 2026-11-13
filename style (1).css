@@ -1,0 +1,46 @@
+:root{--ink:#1A1210;--cream:#F3EEE3;--rust:#A5472E;--butter:#F1DC9B;--red:#B8221B;--gray:#D4D2CE}
+*{box-sizing:border-box}
+body{margin:0;font-family:'DM Sans',sans-serif;background:var(--rust);color:var(--ink)}
+h1,h2,h3,.logo{font-family:'Very Vogue','Playfair Display',Georgia,serif;font-weight:900}
+:focus-visible{outline:3px dashed var(--ink);outline-offset:3px}
+.nav{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;padding:14px 48px;background:var(--cream);border-bottom:3px solid var(--ink)}
+.logo{font-size:30px;color:var(--ink);text-decoration:none}
+.nav nav{display:flex;gap:28px}
+.nav nav a{color:var(--ink);text-decoration:none;font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:8px 0;border-bottom:3px solid transparent}
+.nav nav a[aria-current=page]{border-color:var(--red)}
+.btn{display:inline-flex;align-items:center;min-height:44px;padding:12px 22px;background:var(--ink);color:var(--cream);border:2px solid var(--ink);font:700 13px 'DM Sans',sans-serif;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;cursor:pointer}
+.btn.red{background:var(--red)}.btn.gold{background:var(--butter);color:var(--ink)}
+.eyebrow{font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.cover{color:var(--cream);text-align:center;padding:48px 24px 72px}
+.cover h1{font-size:clamp(48px,11vw,150px);line-height:1;margin:12px 0}
+.tag{font-size:20px;margin:0 0 28px}
+.window{max-width:1184px;margin:36px auto;background:var(--cream);border:3px solid var(--ink);box-shadow:10px 10px 0 var(--ink)}
+.titlebar{background:var(--ink);color:var(--cream);padding:10px 16px;font:700 20px 'Playfair Display',serif}
+.body{display:flex;flex-wrap:wrap;gap:20px;padding:20px}
+.tools{flex:0 0 230px;display:flex;flex-direction:column;gap:16px}
+.toolgrid{display:grid;grid-template-columns:1fr 1fr}
+.toolgrid button{height:76px;border:2px solid var(--ink);background:var(--cream);font:700 13px 'DM Sans',sans-serif;cursor:pointer}
+.toolgrid button[aria-pressed=true]{background:var(--butter)}
+.info{background:var(--ink);color:var(--cream);padding:18px;flex:1;min-height:160px}
+.info .eyebrow{color:var(--butter)}.info h3{font-size:24px;margin:8px 0}
+.pill{display:inline-flex;align-items:center;min-height:44px;padding:10px 18px;background:#fff;color:var(--ink);border-radius:999px;font-weight:700;text-decoration:none}
+.canvas{flex:1 1 520px;display:flex;flex-wrap:wrap;gap:24px;padding:24px;background:#fff;border:3px solid var(--ink)}
+.tiles{flex:1 1 260px;display:grid;grid-template-columns:1fr 1fr;gap:16px;align-content:start}
+.tile{display:flex;flex-direction:column;gap:6px;min-height:120px;padding:12px;text-align:left;background:#fff;border:2px solid var(--ink);border-radius:14px;font:400 14px 'DM Sans',sans-serif;cursor:pointer}
+.tile[aria-pressed=true]{background:var(--butter);box-shadow:5px 5px 0 var(--ink)}
+.chip{width:36px;height:36px;border:2px solid var(--ink);border-radius:50%}
+.bar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px;padding:0 20px 20px}
+.lbl{font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;margin-right:8px}
+.sw{width:36px;height:36px;border:2px solid var(--ink);padding:0;cursor:pointer}
+.sw[aria-pressed=true]{outline:3px solid var(--red);outline-offset:2px}
+#lookName{min-height:44px;padding:0 12px;border:2px solid var(--ink);font:16px 'DM Sans',sans-serif}
+.save{display:flex;align-items:center;gap:20px}.total{font:900 24px 'Playfair Display',serif}
+.msg{margin:0;padding:0 20px 20px;font-weight:700;min-height:1.5em}
+.book{background:var(--gray);padding:36px 48px 64px;min-height:80vh}
+.book h1{font-size:84px;line-height:1;margin:6px 0 24px}.dark{color:var(--red)}
+.looks{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:20px;background:var(--cream);border:3px solid var(--ink);box-shadow:10px 10px 0 var(--ink);padding:28px}
+.card{background:#fff;border:2px solid var(--ink);padding:14px;display:flex;flex-direction:column;gap:8px}
+.art{background:var(--gray);display:flex;justify-content:center}
+.hand{font:600 30px 'Caveat',cursive;line-height:1}
+.empty{font-size:18px;margin:0}
+@media(max-width:700px){.nav{padding:12px 16px}.book{padding:24px 16px}.book h1{font-size:52px}}

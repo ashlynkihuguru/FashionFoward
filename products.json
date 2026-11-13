@@ -1,0 +1,14 @@
+[
+{"id":"t1","category":"top","name":"Cropped Tank","brand":"[Brand]","price":28,"color":"#1A1210","url":"https://example.com/replace-me"},
+{"id":"t2","category":"top","name":"Cream Cami","brand":"[Brand]","price":34,"color":"#F3EEE3","url":"https://example.com/replace-me"},
+{"id":"t3","category":"top","name":"Cherry Halter","brand":"[Brand]","price":42,"color":"#B8221B","url":"https://example.com/replace-me"},
+{"id":"b1","category":"bottom","name":"Wide-Leg Trousers","brand":"[Brand]","price":58,"color":"#3E2420","url":"https://example.com/replace-me"},
+{"id":"b2","category":"bottom","name":"Flared Jeans","brand":"[Brand]","price":64,"color":"#5B6B8A","url":"https://example.com/replace-me"},
+{"id":"b3","category":"bottom","name":"Rust Cargo Pants","brand":"[Brand]","price":52,"color":"#A5472E","url":"https://example.com/replace-me"},
+{"id":"s1","category":"shoes","name":"Black Heels","brand":"[Brand]","price":70,"color":"#1A1210","url":"https://example.com/replace-me"},
+{"id":"s2","category":"shoes","name":"Burgundy Flats","brand":"[Brand]","price":46,"color":"#8A1D3A","url":"https://example.com/replace-me"},
+{"id":"g1","category":"bag","name":"Brown Shoulder Bag","brand":"[Brand]","price":88,"color":"#6B3A25","url":"https://example.com/replace-me"},
+{"id":"g2","category":"bag","name":"Butter Mini Bag","brand":"[Brand]","price":60,"color":"#F1DC9B","url":"https://example.com/replace-me"},
+{"id":"e1","category":"eyewear","name":"Oval Sunglasses","brand":"[Brand]","price":24,"color":"#1A1210","url":"https://example.com/replace-me"},
+{"id":"j1","category":"jewelry","name":"Silver Necklace","brand":"[Brand]","price":30,"color":"#8A8A8A","url":"https://example.com/replace-me"}
+]
